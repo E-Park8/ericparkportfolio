@@ -46,14 +46,12 @@ const App = () => {
       <footer className="fixed-bottom">     
     
       <Navbar color="dark" light expand="md">
-          <NavbarToggler onClick={toggle} />
-          <Collapse isOpen={isOpen} navbar>
+
             <Nav className="mr-auto" navbar>
               <NavItem>
-                <NavLink><Link to='/'>Home</Link></NavLink>
+                
               </NavItem>
             </Nav>
-          </Collapse>
         </Navbar>
 
       </footer>

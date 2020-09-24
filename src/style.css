@@ -1,0 +1,14 @@
+.myName {
+    text-align: center;
+}
+
+.myPicture {
+    width: 13%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jobTitle {
+    text-align: center;
+}
