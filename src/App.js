@@ -37,9 +37,9 @@ const App = () => {
           </Collapse>
         </Navbar>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
+          <Route exact path="/ericparkportfolio" component={Home} />
+          <Route path="/ericparkportfolio/portfolio" component={Portfolio} />
+          <Route path="/ericparkportfolio/contact" component={Contact} />
         </Switch>
       </div>
 
