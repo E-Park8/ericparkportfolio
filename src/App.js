@@ -28,18 +28,18 @@ const App = () => {
                 <NavLink><Link to='/ericparkportfolio/'>Home</Link></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink><Link to='/ericparkportfolio/portfolio'>Portfolio</Link></NavLink>
+                <NavLink><Link to='/portfolio'>Portfolio</Link></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink><Link to='/ericparkportfolio/contact'>Contact</Link></NavLink>
+                <NavLink><Link to='/contact'>Contact</Link></NavLink>
               </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
         <Switch>
           <Route exact path="/ericparkportfolio" component={Home} />
-          <Route path="/ericparkportfolio/portfolio" component={Portfolio} />
-          <Route path="/ericparkportfolio/contact" component={Contact} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={Contact} />
         </Switch>
       </div>
 
